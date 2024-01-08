@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
+import 'preline/dist/preline.js';
 </script>
 
 <template>
@@ -24,6 +25,7 @@ import HelloWorld from "./components/HelloWorld.vue";
   </header>
 
   <RouterView />
+  
 </template>
 
 <style scoped>
